@@ -1,0 +1,8 @@
+name: TestAction
+
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: first step
+        run: echo "hello world"
